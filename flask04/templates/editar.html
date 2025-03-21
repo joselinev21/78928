@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar</title>
+</head>
+<body>
+    <h1>Editar</h1>
+    <form action="/guardar" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" value="{{ producto }}" />
+
+    <label for="precio">Precio:</label>
+    <input type="number" name="precio" value="{{precio}}" />
+
+    <button type="submit">Guardar</button>
+</form>
+
+</body>
+</html>
